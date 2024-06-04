@@ -12,6 +12,6 @@ The testbench goes through a comprehensive verification process. Utilizing compo
 
 It does 100 runs and checks whether the output is expected.
 
-Code: [fifo_tb.sv](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/fifo/fifo_tb.sv)
+Code: [fifo_tb.sv](fifo_tb.sv)
 
-The output from the testbench can be seen here: [verification-output](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/fifo/verification-output.md).
+The output from the testbench can be seen here: [verification-output](verification-output.md).
