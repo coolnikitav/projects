@@ -3,10 +3,10 @@
 
 ## Design and Verification
 - Design:
-  - [reg_file.v](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/writeback/reg_file.v)
-  - [writeback.v](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/writeback/writeback.v)
-- Testbench: [writeback_tb.sv](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/writeback/writeback_tb.sv)
-- Simulation output: [simulation-output.md](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/writeback/writeback_simulation_output.md)
+  - [reg_file.v](reg_file.v)
+  - [writeback.v](writeback.v)
+- Testbench: [writeback_tb.sv](writeback_tb.sv)
+- Simulation output: [simulation-output.md](writeback_simulation_output.md)
 
 ## LC3 Writeback Behavior
 - Writes either aluout, pcout or memout based on W_Control value. This project only addresses aluout and pcout operations
