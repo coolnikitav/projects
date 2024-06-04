@@ -2,9 +2,9 @@
 ![image](https://github.com/coolnikitav/coding-lessons/assets/30304422/ededf866-5fda-4685-9657-f4175535e364)
 
 ### Design and Verification
-- Design: [fetch.v](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/fetch/fetch.v)
-- Testbench: [fetch_tb.sv](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/fetch/fetch_tb.sv)
-- Simulation output: [simulation-output.md](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/fetch/simulation-output.md)
+- Design: [fetch.v](fetch.v)
+- Testbench: [fetch_tb.sv](fetch_tb.sv)
+- Simulation output: [simulation-output.md](simulation-output.md)
 
 ### LC3 Fetch Behavior:
 - On reset: pc = 3000, npc = 3001
