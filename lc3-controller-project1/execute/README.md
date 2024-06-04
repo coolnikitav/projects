@@ -4,17 +4,17 @@
 
 ## Design and Verification
 - Extension:
-  - Design: [extension.v](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/execute/extension.v)
-  - Testbench: [extension_tv.sv](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/execute/extension_tb.sv)
-  - Simulation output: [extension-simulation-output.md](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/execute/extension_simulation_output.md)
+  - Design: [extension.v](extension.v)
+  - Testbench: [extension_tv.sv](extension_tb.sv)
+  - Simulation output: [extension-simulation-output.md](extension_simulation_output.md)
 - ALU:
-  - Design: [alu_control.v](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/execute/alu_control.v)
+  - Design: [alu_control.v](alu_control.v)
   - Testbench: [alu_control_tb.v]()
-  - Simulation output: [alu-simulation-output.md](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/execute/alu_simulation_output.md)
+  - Simulation output: [alu-simulation-output.md](alu_simulation_output.md)
 - Execute:
-  - Design: [execute.v](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/execute/execute.v)
-  - Testbench: [execute_tb.sv](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/execute/execute_tb.sv)
-  - Simulation output: [execute-simulation-output.md](https://github.com/coolnikitav/nikitas-notebook/blob/main/engineering/lc3-controller-project1/execute/execute_simulation_output.md)
+  - Design: [execute.v](execute.v)
+  - Testbench: [execute_tb.sv](execute_tb.sv)
+  - Simulation output: [execute-simulation-output.md](execute_simulation_output.md)
 
 ## LC3 Execute Behavior
 - sr1 & sr2 = source register addresses
