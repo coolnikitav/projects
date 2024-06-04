@@ -9,7 +9,7 @@
   - Simulation output: [extension-simulation-output.md](extension_simulation_output.md)
 - ALU:
   - Design: [alu_control.v](alu_control.v)
-  - Testbench: [alu_control_tb.v]()
+  - Testbench: [alu_control_tb.v](alu_tb.sv)
   - Simulation output: [alu-simulation-output.md](alu_simulation_output.md)
 - Execute:
   - Design: [execute.v](execute.v)
