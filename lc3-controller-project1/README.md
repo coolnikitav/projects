@@ -18,7 +18,7 @@ List of the simplifications compared to the full LC-3:
 The LC-3 Controller consists of 4 modules: Fetch, Decoce, Execute, Writeback. Components were designed and verified individually. Then they were combined into a main controller design and verified that all 5 stages of the pipeline worked cohesively. 
 
 Each of the folders has specifications, intended module behavior, schematics, design files, testbench files, and simulation outputs:
-- [Controller - Combines the 4 modules into a full processor](controller)
+- [Controller](controller) - Combines the 4 modules into a full processor
 - [Fetch](fetch)
 - [Decode](decode)
 - [Execute](execute)
