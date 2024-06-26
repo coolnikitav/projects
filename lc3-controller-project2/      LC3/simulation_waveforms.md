@@ -19,6 +19,8 @@
 ### Actual:
 <img src="https://github.com/coolnikitav/projects/assets/30304422/b19ab58b-70e1-40ec-ad4d-d9887d8b3cb9" alt="image" width="700"/>
 
+## Bypassing
+
 
 ## Complete Waveform (click on it to expand)
 <img src="https://github.com/coolnikitav/projects/assets/30304422/da78b491-6216-4d51-ac28-6b93ef44ba1c" alt="image" width="2000"/>
@@ -29,7 +31,7 @@
 - 3003: 12A1 (R1 <- R2 + 1): ADD imm with bypass_alu_1
 - 3004: 5A81 (R5 <- R2 & R1): AND reg with bypass_alu_2
 - 3005: C180 (JMP R6): JMP
-- 3008: 967F (R3 <- ~R1): NOT
+- 3008: 967F (R3 <- ~R1): NOT with bypass_alu_2
 - 3009: 3600 (R3 -> DMem[300B]): ST
 - 300A: 1AA5 (R5 <- R2 + 5): ADD imm
 - 300B: A802 (R4 <- DMem[DMem[300F]=3011] = 0016): LDI
