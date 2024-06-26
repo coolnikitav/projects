@@ -1,6 +1,6 @@
 # LC-3 Project 1: Instruction Set Architecture
 ## Description
-This project is inspired by NC State's ECE 745 course: ASIC Verification. The first part of the course is designing and verifying a simple version of the LC-3 controller.
+This project is inspired by NC State's ECE 745 course: ASIC Verification. The first part of the course is designing and verifying a LC-3 controller.
 
 LC-3 is a simple computer architecture with the following characteristics:
 - 16-bit architecture
