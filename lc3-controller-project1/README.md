@@ -13,6 +13,7 @@ List of the simplifications compared to the full LC-3:
 - All instructions take 5 clock cycles.
 - Some of the inputs and outputs are not used: Mem_Control in the decode module; M_Data, Mem_contol_in, NZP, Mem_control_out in the execute module; psr in the writeback module.
 - The processor is unpipelined and does not address pipeline issues like control and data dependence.
+- Only interacts with instruction memory, not data memory
 
 ## Modules
 This LC-3 Controller consists of 4 modules: Fetch, Decode, Execute, Writeback. Modules were designed and verified individually. Then they were combined into a main controller design and it was verified that all 5 stages of the pipeline worked cohesively. 
