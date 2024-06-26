@@ -22,6 +22,10 @@ For reference, store instructions:
 
 <img src="https://github.com/coolnikitav/projects/assets/30304422/89b6318d-6679-4358-abae-c81220fabf96" alt="image" width="500"/>
 
-### Behavior for Control Operations:
+### Behavior for Control Operations
 A control operation (BR/JMP) is detected by analyzing Instr_dout signal from the instruction memory. The instruction is sent through the pipeline while nothing is fetched/decoded/executed until th eresult of the execute
 unit provides the requisite NZP and PCnext value to make a decision on whether the branch is take or not.
+
+### Behavior for Memory Operations (except LEA)
+Memory operations are detected at the output of the Execute block by analyzing the IR_Exec signal (LEA is treated as an ALU type of instruction). The entire pipeline is then stalled by making all enables move down to
+zero until the memory read or write is complete.
