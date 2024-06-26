@@ -20,3 +20,9 @@ Example:
 Instruction B is dependent on instruction A. A has not written to R5 when B needs it, thus the last ALU value needs to be bypassed in. In this example, bypass_alu_1 would go high.
 
 If instruction A was a load, a memory value would need to be bypassed in by setting bypass_mem_1 or bypass_mem_2 to 1.
+
+## Register Control
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/c29bb76d-553b-40bf-b330-b2329df5ea6f" alt="image" width="500"/>
+
+## LC3 Execute Internals
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/715c6de5-eb06-4f5f-9d1c-c8580e566d5a" alt="image" width="500"/>
