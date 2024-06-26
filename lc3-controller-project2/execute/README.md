@@ -4,7 +4,7 @@
 ## Design and Verification
 - Design: [execute.sv](execute.sv), [extension.sv](extension.sv), [alu.sv](alu.sv)
 - Testbench: [execute_tb.sv](execute_tb.sv)
-- Simulation output: [simulation-output.md](simulation-output.md)
+- Simulation output: [simulation_output.md](simulation_output.md)
 
 ## Understanding Dependencies
 ![image](https://github.com/coolnikitav/coding-lessons/assets/30304422/fcbfc29f-33ee-4241-a152-a48ee547d4b2)
