@@ -1,7 +1,7 @@
 # LC3
 ![image](https://github.com/coolnikitav/learning/assets/30304422/28a4dc9e-65af-4c24-a04c-d40f763849bf)
 
-![image](https://github.com/coolnikitav/projects/assets/30304422/ecfd0f59-5fdd-49cf-9223-eaf3d76655d5)
+![image](https://github.com/coolnikitav/projects/assets/30304422/0a2bf91e-4a58-4bbe-9450-b417cee1c748)
 
 ## Design and Verification
 - Design: [LC3.sv](LC3.sv)
