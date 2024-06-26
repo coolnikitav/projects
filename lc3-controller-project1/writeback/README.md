@@ -1,5 +1,5 @@
 # LC3 Writeback
-![image](https://github.com/coolnikitav/coding-lessons/assets/30304422/42af1a34-6314-4213-843d-64c6270d85e4)
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/42af1a34-6314-4213-843d-64c6270d85e4" alt="image" width="400"/>
 
 ## Design and Verification
 - Design:
@@ -14,7 +14,7 @@
 - Asynchronous reads from RF usign sr1 & sr2
 
 ## RegFile
-![image](https://github.com/coolnikitav/coding-lessons/assets/30304422/571263a9-298d-4e3d-8583-f816980c0bf8)
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/571263a9-298d-4e3d-8583-f816980c0bf8" alt="image" width="325"/>
 
 ## LC3 Writeback Internals
-![image](https://github.com/coolnikitav/coding-lessons/assets/30304422/d7c9fe6a-575b-4bf6-a625-5b9a02ed9dc1)
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/d7c9fe6a-575b-4bf6-a625-5b9a02ed9dc1" alt="image" width="500"/>
