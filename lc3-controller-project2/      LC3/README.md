@@ -58,12 +58,18 @@ LDI/STI (Indirect):
 - LDI: [DR] <- DMem[Mem_Addr]
 - STI: DMem[Mem_Addr] <- [SR]
 
-Load Effective Address (LEA):
+LEA (Load Effective Address):
 - Mem_Addr = PCmem + 1 + sign-extended(PCoffset9)
 - [DR] <- Mem_Addr
 
 ### Control Instructions: (BR, JMP)
 <img src="https://github.com/coolnikitav/projects/assets/30304422/0af9e11f-f4ad-43ee-8938-5e576cf285c6" alt="image" width="550"/>
+
+BR:
+- PCnext = PCbranch + 1 + sign-extended(PCoffset9)
+
+JMP:
+- PCnext <- [BaseR]
 
 ## Test Plan
 Instruction memory:
