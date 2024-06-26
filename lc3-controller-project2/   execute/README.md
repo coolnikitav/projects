@@ -7,21 +7,20 @@
 - Simulation output: [simulation_output.md](simulation_output.md)
 
 ## LC3 Execute Behavior
-- sr1 & sr2 = source register addresses
-- dr = destination register address
+- sr1 & sr2 = source register addresses, dr = destination register address
 - VSR1 & VSR2 = values of RF[sr1] & RF[sr2] created asynchronously in Writeback
-- aluout = result of alu operation (ADD, NOT, AND)
-- pcout = result of pc related operation (BR, JMP, LEA)
-- M_Data = contents of RegFile[SR]
-- W_Control_out: reflects synchronously W_Control_in
-- On reset, aluout, pcout, W_control_out, dr go to 0
+- aluout = result of alu operation (ADD, NOT, AND), pcout = result of pc related operation (LD, LDR, LDI, LEA, ST, STR, STI, BR), M_Data = contents of RegFile[SR]
+- On reset, synchronous outputs go to 0
 
-## Understanding Dependencies
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/fcbfc29f-33ee-4241-a152-a48ee547d4b2" alt="image" width="500"/>
+## Dependencies
+Example:
+- A: @PC = 16'h3005, Instruction = AND R5, R4, R3 (16'h5B03)
+- B: @PC = 16'h3006, Instruction = ADD R6, R5, #4 (16'h1D64)
 
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/2e409569-c86f-4911-8147-80b9e67d2d11" alt="image" width="500"/>
+Instruction B is dependent on instruction A. A has not written to R5 when B needs it, thus the last ALU value needs to be bypassed in. In this example, bypass_alu_1 would go high.
 
-Typically, execute block would get SR1 and SR2 values from writeback. But if there are dependencies, it will need to bypass and grab values from previous aluout or memory.
+If instruction A was a load, a memory value would need to be bypassed in by setting bypass_mem_1 or bypass_mem_2 to 1.
+
 
 ## aluout and pcout
 <img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/2c30ff0a-48fc-43ff-96d4-f132963f9148" alt="image" width="300"/>
