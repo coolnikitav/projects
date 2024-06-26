@@ -6,7 +6,7 @@
 ## Design and Verification
 - Design: [LC3.sv](LC3.sv)
 - Testbench: [LC3_tb.sv](LC3_tb.sv)
-- Simulation output: [simulation-output.md](simulation-output.md)
+- Simulation output: [simulation_output.md](simulation_output.md)
 ## Test Plan
 Instruction memory:
 - 3000: 5020 (R0 <- R0 & 0) AND imm
