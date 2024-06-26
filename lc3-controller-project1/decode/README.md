@@ -16,7 +16,7 @@
 ### W_Control
 W_Control signal is a function of IR[15:12]. I focus only on ALU and LEA instructions and hence W_Controll is either 0 (ALU) or 2 (LEA). The full table of values is shown below:
 
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/40a2bb9c-5580-4b2b-824f-1b5f7e2f35ba" alt="image" width="200"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/40a2bb9c-5580-4b2b-824f-1b5f7e2f35ba" alt="image" width="300"/>
 
 It is an ALU operation if IR[13:12] = 2'b01:
 
