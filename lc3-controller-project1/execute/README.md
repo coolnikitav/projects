@@ -5,7 +5,7 @@
 ## Design and Verification
 - Extension:
   - Design: [extension.v](extension.v)
-  - Testbench: [extension_tv.sv](extension_tb.sv)
+  - Testbench: [extension_tb.sv](extension_tb.sv)
   - Simulation output: [extension-simulation-output.md](extension_simulation_output.md)
 - ALU:
   - Design: [alu_control.v](alu_control.v)
