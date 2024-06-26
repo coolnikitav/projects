@@ -3,6 +3,10 @@
 
 ![image](https://github.com/coolnikitav/learning/assets/30304422/66056a8c-8f12-464f-b810-f332a8bdde21)
 
+## Design and Verification
+- Design: [LC3.sv](LC3.sv)
+- Testbench: [LC3_tb.sv](LC3_tb.sv)
+- Simulation output: [simulation-output.md](simulation-output.md)
 ## Test Plan
 Instruction memory:
 - 3000: 5020 (R0 <- R0 & 0) AND imm
