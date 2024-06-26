@@ -14,10 +14,10 @@
 
 ## Timing for Memory Instructions
 ### Expected:
-<img src="https://github.com/coolnikitav/projects/assets/30304422/74b3ddbf-866a-4176-a43e-d143f8a7ccee)" alt="image" width="700"/>
+<img src="https://github.com/coolnikitav/projects/assets/30304422/74b3ddbf-866a-4176-a43e-d143f8a7ccee" alt="image" width="700"/>
 
 ### Actual:
-<img src="https://github.com/coolnikitav/projects/assets/30304422/b19ab58b-70e1-40ec-ad4d-d9887d8b3cb9" alt="image" width="700"/>
+<img src="https://github.com/coolnikitav/projects/assets/30304422/6214c44f-0165-427c-a7a9-cfdea9262d06" alt="image" width="700"/>
 
 ## Bypassing (click to expand)
 <img src="https://github.com/coolnikitav/projects/assets/30304422/961c8e37-4929-4f27-a66d-06d9691dcd2a" alt="image" width="2000"/>
