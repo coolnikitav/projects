@@ -26,8 +26,8 @@ Each of the folders has specifications, intended module behavior, schematics, de
 - [Writeback](writeback)
 
 ## Skills
-- Testbenches we written in SystemVerilog.
-- Testbenches utilized:
+- Testbenches were written in SystemVerilog.
+- Testbenches utilized the following:
   - Random stimulus
   - Functional coverage: interface, transaction, generator, driver, monitor, scoreboard, environment
   - Assertion-based verification methodologies
