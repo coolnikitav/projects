@@ -1,5 +1,5 @@
 # LC3 Controller
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/6709a018-5cc2-4024-8da9-2f176df188a4" alt="image" width="300"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/6709a018-5cc2-4024-8da9-2f176df188a4" alt="image" width="750"/>
 
 ## Design and Verification
 - Controller:
