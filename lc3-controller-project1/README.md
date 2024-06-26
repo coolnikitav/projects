@@ -2,7 +2,7 @@
 ## Description
 This project is inspired by NC State's ECE 745 course: ASIC Verification. The first part of the course is designing and verifying a LC-3 controller.
 
-LC-3 is a simple computer architecture with the following characteristics:
+LC-3 is a computer architecture with the following characteristics:
 - 16-bit architecture
 - Fixed instruction length
 - 15 instructions
