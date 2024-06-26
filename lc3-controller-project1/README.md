@@ -3,10 +3,10 @@
 This project is inspired by NC State's ECE 745 course: ASIC Verification. The first part of the course is designing and verifying a LC-3 controller.
 
 LC-3 is a computer architecture with the following characteristics:
-- 16-bit architecture
-- Fixed instruction length
-- 15 instructions
-- 8 general purpose registers
+- 16-bit architecture.
+- Fixed instruction length.
+- 15 instructions.
+- 8 general purpose registers.
 
 List of the simplifications compared to the full LC-3:
 - Only operates on the following instructions: ADD, NOT, AND, LEA.
