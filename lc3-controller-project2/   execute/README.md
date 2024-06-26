@@ -6,6 +6,16 @@
 - Testbench: [execute_tb.sv](execute_tb.sv)
 - Simulation output: [simulation_output.md](simulation_output.md)
 
+## LC3 Execute Behavior
+- sr1 & sr2 = source register addresses
+- dr = destination register address
+- VSR1 & VSR2 = values of RF[sr1] & RF[sr2] created asynchronously in Writeback
+- aluout = result of alu operation (ADD, NOT, AND)
+- pcout = result of pc related operation (BR, JMP, LEA)
+- M_Data = contents of RegFile[SR]
+- W_Control_out: reflects synchronously W_Control_in
+- On reset, aluout, pcout, W_control_out, dr go to 0
+
 ## Understanding Dependencies
 <img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/fcbfc29f-33ee-4241-a152-a48ee547d4b2" alt="image" width="500"/>
 
