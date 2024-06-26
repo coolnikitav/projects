@@ -29,6 +29,42 @@ by setting complete_instr to 1
 
 ## Instruction Operation
 
+### ALU Instructions: (AND, ADD, NOT)
+<img src="https://github.com/coolnikitav/projects/assets/30304422/31ce2376-13ea-4607-ac6e-7f0aa863777c" alt="image" width="550"/>
+
+AND/ADD:
+- Immediate: [DR] <- [SR1] +/& imm5(sign extended)
+- Register: [DR] <- [SR1] +/& [SR2]
+
+NOT: 
+- [DR] <- ~[SR1]
+
+### Memory Instructions: (LD, LDR, LDI, LEA, ST, STR, STI)
+<img src="https://github.com/coolnikitav/projects/assets/30304422/75bbe4f8-71f6-4d03-8c28-972c09de867a" alt="image" width="550"/>
+
+LD/ST (PC Relative):
+- Mem_Addr = PCmem + 1 + sign-extended(PCoffset9)
+- LD: [DR] <- DMem[Mem_Addr]
+- ST: DMem[Mem_Addr] <- [SR]
+
+LDR/STR (Register Relative):
+- Mem_Addr = [BaseR] + sign-extended(PCoffset6)
+- LDR: [DR] <- DMem[Mem_Addr]
+- STR: DMem[Mem_Addr] <- [SR]
+
+LDI/STI (Indirect):
+- Mem_Addr1 = PCmem + 1 + sign-extended(PCoffset9)
+- Mem_Addr = DMem[Mem_Addr1]
+- LDI: [DR] <- DMem[Mem_Addr]
+- STI: DMem[Mem_Addr] <- [SR]
+
+Load Effective Address (LEA):
+- Mem_Addr = PCmem + 1 + sign-extended(PCoffset9)
+- [DR] <- Mem_Addr
+
+### Control Instructions: (BR, JMP)
+<img src="https://github.com/coolnikitav/projects/assets/30304422/0af9e11f-f4ad-43ee-8938-5e576cf285c6" alt="image" width="550"/>
+
 ## Test Plan
 Instruction memory:
 - 3000: 5020 (R0 <- R0 & 0) AND imm
