@@ -9,6 +9,7 @@
 - Design: [LC3.sv](LC3.sv)
 - Testbench: [LC3_tb.sv](LC3_tb.sv)
 - Simulation output: [simulation_output.md](simulation_output.md)
+- Simulation waveforms: [simulation_waveforms.md](simulation_waveforms.md)
 
 ## LC3 Behavior
 The LC3 interacts with an instruction memory and a data memory
