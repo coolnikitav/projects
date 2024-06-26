@@ -20,6 +20,7 @@
 <img src="https://github.com/coolnikitav/projects/assets/30304422/b19ab58b-70e1-40ec-ad4d-d9887d8b3cb9" alt="image" width="700"/>
 
 ## Bypassing
+<img src="https://github.com/coolnikitav/projects/assets/30304422/961c8e37-4929-4f27-a66d-06d9691dcd2a" alt="image" width="2000"/>
 
 
 ## Complete Waveform (click on it to expand)
