@@ -1,5 +1,5 @@
 # LC3 Controller
-![image](https://github.com/coolnikitav/learning/assets/30304422/bef42f9f-6492-4fa8-a03a-e05b792df75a)
+<img src="https://github.com/coolnikitav/learning/assets/30304422/bef42f9f-6492-4fa8-a03a-e05b792df75a" alt="image" width="450"/>
 
 ## Design and Verification
 - Design: [controller.sv](controller.sv)
@@ -12,3 +12,16 @@
 
 ### br_taken
 The br_taken is created for the control instructions using th elogic br_taken = |(psr & NZP). NZP comes from the Execute block and psr comes from the Writeback block.
+
+### Bypassing for stores
+To allow bypassing for SR and BaseR, the following mapping is used:
+- sr1 = IR[8:6] = BaseR (valid for STR only)
+- sr2 = IR[11:9] SR (valid for all stores)
+
+For reference, store instructions:
+
+<img src="https://github.com/coolnikitav/projects/assets/30304422/89b6318d-6679-4358-abae-c81220fabf96" alt="image" width="500"/>
+
+### Behavior for Control Operations:
+A control operation (BR/JMP) is detected by analyzing Instr_dout signal from the instruction memory. The instruction is sent through the pipeline while nothing is fetched/decoded/executed until th eresult of the execute
+unit provides the requisite NZP and PCnext value to make a decision on whether the branch is take or not.
