@@ -8,5 +8,7 @@
 - Simulation waveform: [simulation-waveform.md](simulation-waveform.md)
 
 ## LC3 Controller Behavior
+- On reset all enables and bypass signals go to 0 but mem_state = 3
 
-##
+### br_taken
+The br_taken is created for the control instructions using th elogic br_taken = |(psr & NZP). NZP comes from the Execute block and psr comes from the Writeback block.
