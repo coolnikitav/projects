@@ -1,5 +1,5 @@
 # LC3 Decode
-![image](https://github.com/coolnikitav/coding-lessons/assets/30304422/7c066fab-c53f-47ef-8576-4670afd42fcb)
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/7c066fab-c53f-47ef-8576-4670afd42fcb" alt="image" width="375"/>
 
 ## Design and Verification
 - Design: [decode.v](decode.v)
