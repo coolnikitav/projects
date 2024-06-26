@@ -34,7 +34,7 @@
 - offset11 = {5{IR[10]},IR[10:0]}
 
 ## Register Control
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/c29bb76d-553b-40bf-b330-b2329df5ea6f" alt="image" width="400"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/c29bb76d-553b-40bf-b330-b2329df5ea6f" alt="image" width="500"/>
 
 ## LC3 Execute Internals
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/715c6de5-eb06-4f5f-9d1c-c8580e566d5a" alt="image" width="400"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/715c6de5-eb06-4f5f-9d1c-c8580e566d5a" alt="image" width="500"/>
