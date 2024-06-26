@@ -1,6 +1,6 @@
 # LC3 Execute
 
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/1df20a5d-6430-46d2-bd57-5092fea76004" alt="image" width="300"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/1df20a5d-6430-46d2-bd57-5092fea76004" alt="image" width="400"/>
 
 ## Design and Verification
 - Extension:
@@ -26,7 +26,7 @@
 - On reset, aluout, pcout, W_control_out, dr go to 0
 
 ## Extension
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/c72661bc-4fd4-4c52-996f-6d941a1ebb16" alt="image" width="300"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/c72661bc-4fd4-4c52-996f-6d941a1ebb16" alt="image" width="200"/>
 - imm5 = {11{IR[4]},IR{4:0}}
 - offset6 = {10{IR[5]},IR[5:0]}
 - offset9 = {7{IR[8]},IR[8:0]}
