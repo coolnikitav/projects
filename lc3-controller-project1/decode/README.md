@@ -1,13 +1,13 @@
 # LC3 Decode
 ![image](https://github.com/coolnikitav/coding-lessons/assets/30304422/7c066fab-c53f-47ef-8576-4670afd42fcb)
 
-### Design and Verification
+## Design and Verification
 - Design: [decode.v](decode.v)
 - Testbench: [decode_tb.sv](decode_tb.sv)
 - Reference model: [e_w_control_pkg.sv](e_w_control_pkg.sv)
 - Simulation output: [simulation-output.md](simulation-output.md)
   
-### LC3 Decode Behavior
+## LC3 Decode Behavior
 - On reset, all outputs go to logic 0
 - npc_out is equal to npc_in (passing to execute unit)
 - enable_decode is the master enable
@@ -33,7 +33,5 @@ E_Control signal is the concatenation of {alu_control, pcselect1, pcselect2, op2
 
 For example, if IR[15:12] decodes to ADD and IR[5] = 0, then E_Control = 6'b00xxx1.
 
-
-
-### LC3 Decode Internals
+## LC3 Decode Internals
 ![image](https://github.com/coolnikitav/coding-lessons/assets/30304422/3fb97ea6-a669-485c-819b-0f3335a9b292)
