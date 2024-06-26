@@ -21,6 +21,11 @@ Instruction B is dependent on instruction A. A has not written to R5 when B need
 
 If instruction A was a load, a memory value would need to be bypassed in by setting bypass_mem_1 or bypass_mem_2 to 1.
 
+## NZP
+This reflects the contentsof the NZP flags for  branch instructions. For all other instructions, NZP is 0.
+
+<img src="https://github.com/coolnikitav/projects/assets/30304422/dbf54d27-715c-460c-a7cc-b6a217426267" alt="image" width="500"/>
+
 ## Register Control
 <img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/c29bb76d-553b-40bf-b330-b2329df5ea6f" alt="image" width="500"/>
 
