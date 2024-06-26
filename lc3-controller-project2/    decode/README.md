@@ -26,7 +26,7 @@ E_Control signal is the concatenation of {alu_control, pcselect1, pcselect2, op2
 For example, if IR[15:12] decodes to ADD and IR[5] = 0, then E_Control = 6'b000001.
 
 ### Mem_Control
-Mem_Controls let's us know whether we are trying to write or read to memory:
+Mem_Controls lets us know whether we are trying to write or read to memory:
 
 <img src="https://github.com/coolnikitav/projects/assets/30304422/059d6b46-7240-42d5-a547-c48370937a7d" alt="image" width="250"/>
 
