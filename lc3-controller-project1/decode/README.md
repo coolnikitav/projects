@@ -20,18 +20,18 @@ W_Control signal is a function of IR[15:12]. I focus only on ALU and LEA instruc
 
 It is an ALU operation if IR[13:12] = 2'b01:
 
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/b4081918-52b9-41ce-955e-671ac5e9fa21" alt="image" width="450"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/b4081918-52b9-41ce-955e-671ac5e9fa21" alt="image" width="500"/>
 
 It is an LEA operation if IR[15:12] = 4'b1110:
 
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/3b2d3afa-338d-47b2-81aa-7d3dff2c3a37" alt="image" width="450"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/3b2d3afa-338d-47b2-81aa-7d3dff2c3a37" alt="image" width="500"/>
 
 ### E_Control
 E_Control signal is the concatenation of {alu_control, pcselect1, pcselect2, op2select}. The values for these signals are shown in the following table:
 
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/43c910b6-5b4e-4633-b671-152e67ca83c5" alt="image" width="200"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/43c910b6-5b4e-4633-b671-152e67ca83c5" alt="image" width="500"/>
 
 For example, if IR[15:12] decodes to ADD and IR[5] = 0, then E_Control = 6'b00xxx1.
 
 ## LC3 Decode Internals
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/3fb97ea6-a669-485c-819b-0f3335a9b292" alt="image" width="200"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/3fb97ea6-a669-485c-819b-0f3335a9b292" alt="image" width="450"/>
