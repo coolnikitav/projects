@@ -25,5 +25,10 @@ Each of the folders has specifications, intended module behavior, schematics, de
 - [Writeback](writeback)
   
 ## Skills
-
+- Design and testbench files were written in SystemVerilog.
+- Testbenches utilized the following:
+  - UVM
+  - Function coverage: transaction, sequence, sequencer, driver, monitor, scoreboard, agent, environment, test
+  - Random stimulus
+- Understanding of a processor pipeline, control and data dependencies, bypassing, and uniprocessor architecture.
 ## Challenges
