@@ -11,7 +11,10 @@
 - Simulation output: [simulation_output.md](simulation_output.md)
 
 ## LC3 Behavior
-
+The LC3 interacts with an instruction memory and a data memory
+- When an instruction is ready to be read, instrmem_rd is set to 1. The instruction memory return instruction at PC and indicates a successful fetch
+by setting complete_instr to 1
+- The LC3 needs to interact with data memory during loads and stores. Data_rd is set to 1 to write Data_din to data memory at Data_addr. Data_rd is set to 0 to read Data_dout from data memory at Data_addr.
 ### Startup Timing
 <img src="https://github.com/coolnikitav/projects/assets/30304422/d138cbc7-c94d-4a0e-99ba-a919e69115ca" alt="image" width="650"/>
 
@@ -21,8 +24,10 @@
 ### Timing for Control Operations
 <img src="https://github.com/coolnikitav/projects/assets/30304422/4aa3954e-a674-4057-b09f-08aa889bf341" alt="image" width="650"/>
 
-## Instruction pipeline
+## Instruction Pipeline
 <img src="https://github.com/coolnikitav/learning/assets/30304422/86ad7201-15b8-4469-98e5-bf6054b28570" alt="image" width="650"/>
+
+## Instruction Operation
 
 ## Test Plan
 Instruction memory:
