@@ -1,6 +1,8 @@
 # LC3
 <img src="https://github.com/coolnikitav/learning/assets/30304422/28a4dc9e-65af-4c24-a04c-d40f763849bf" alt="image" width="600"/>
 
+### Detailed diagram:
+
 <img src="https://github.com/coolnikitav/projects/assets/30304422/3e488864-1087-4c78-9f14-780e42288820" alt="image" width="2400"/>
 
 ## Design and Verification
