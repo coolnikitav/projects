@@ -7,6 +7,10 @@
 - Design: [LC3.sv](LC3.sv)
 - Testbench: [LC3_tb.sv](LC3_tb.sv)
 - Simulation output: [simulation_output.md](simulation_output.md)
+
+
+![image](https://github.com/coolnikitav/learning/assets/30304422/86ad7201-15b8-4469-98e5-bf6054b28570)
+
 ## Test Plan
 Instruction memory:
 - 3000: 5020 (R0 <- R0 & 0) AND imm
