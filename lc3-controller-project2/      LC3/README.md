@@ -1,15 +1,26 @@
 # LC3
-![image](https://github.com/coolnikitav/learning/assets/30304422/28a4dc9e-65af-4c24-a04c-d40f763849bf)
+<img src="https://github.com/coolnikitav/learning/assets/30304422/28a4dc9e-65af-4c24-a04c-d40f763849bf" alt="image" width="600"/>
 
-![image](https://github.com/coolnikitav/projects/assets/30304422/3e488864-1087-4c78-9f14-780e42288820)
+<img src="https://github.com/coolnikitav/projects/assets/30304422/3e488864-1087-4c78-9f14-780e42288820" alt="image" width="2400"/>
 
 ## Design and Verification
 - Design: [LC3.sv](LC3.sv)
 - Testbench: [LC3_tb.sv](LC3_tb.sv)
 - Simulation output: [simulation_output.md](simulation_output.md)
 
+## LC3 Behavior
 
-![image](https://github.com/coolnikitav/learning/assets/30304422/86ad7201-15b8-4469-98e5-bf6054b28570)
+### Startup Timing
+<img src="https://github.com/coolnikitav/projects/assets/30304422/d138cbc7-c94d-4a0e-99ba-a919e69115ca" alt="image" width="650"/>
+
+### Timing for ALU Operations
+<img src="https://github.com/coolnikitav/projects/assets/30304422/284af01b-f7ff-4055-8e5a-97a421033231" alt="image" width="650"/>
+
+### Timing for Control Operations
+<img src="https://github.com/coolnikitav/projects/assets/30304422/4aa3954e-a674-4057-b09f-08aa889bf341" alt="image" width="650"/>
+
+## Instruction pipeline
+<img src="https://github.com/coolnikitav/learning/assets/30304422/86ad7201-15b8-4469-98e5-bf6054b28570" alt="image" width="650"/>
 
 ## Test Plan
 Instruction memory:
