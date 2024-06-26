@@ -18,10 +18,10 @@
 
 ## LC3 Execute Behavior
 - sr1 & sr2 = source register addresses
+- dr = destination register address
 - VSR1 & VSR2 = values of RF[sr1] & RF[sr2] created asynchronously in Writeback
 - aluout = result of alu operation (ADD, NOT, AND)
 - pcout = result of pc related operation (BR, JMP, LEA)
-- dr = destination register address
 - W_Control_out: reflects synchronously W_Control_in
 - On reset, aluout, pcout, W_control_out, dr go to 0
 
