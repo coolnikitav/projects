@@ -20,7 +20,7 @@ W_Control signal is a function of IR[15:12]. I focus only on ALU and LEA instruc
 
 It is an ALU operation if IR[13:12] = 2'b01:
 
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/b4081918-52b9-41ce-955e-671ac5e9fa21" alt="image" width="52"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/b4081918-52b9-41ce-955e-671ac5e9fa21" alt="image" width="525"/>
 
 It is an LEA operation if IR[15:12] = 4'b1110:
 
