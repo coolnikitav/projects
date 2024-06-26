@@ -26,7 +26,8 @@
 - On reset, aluout, pcout, W_control_out, dr go to 0
 
 ## Extension
-<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/c72661bc-4fd4-4c52-996f-6d941a1ebb16" alt="image" width="200"/>
+<img src="https://github.com/coolnikitav/coding-lessons/assets/30304422/c72661bc-4fd4-4c52-996f-6d941a1ebb16" alt="image" width="100"/>
+
 - imm5 = {11{IR[4]},IR{4:0}}
 - offset6 = {10{IR[5]},IR[5:0]}
 - offset9 = {7{IR[8]},IR[8:0]}
