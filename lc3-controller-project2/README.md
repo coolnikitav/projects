@@ -33,6 +33,6 @@ Each of the folders has specifications, intended module behavior, schematics, de
 - Understanding of a processor pipeline, control and data dependencies, bypassing, and uniprocessor architecture.
   
 ## Challenges
-- Could not get a sequence library to work. Created a method to randomly execute sequences.
+- Could not get a sequence library to work. Created a method to randomly pick sequences to execute.
 - It was very difficult to get the correct timing for the enable signals because I used always blocks triggered on posedge clk. Learned that always blocks triggered on specific inputs activate a clock edge earlier, allowing to implement all enable signals according to specs.
 - Unclear sections/contradicting information in the specification document. I created my own specifications based on my knowledge of computer architecture.
