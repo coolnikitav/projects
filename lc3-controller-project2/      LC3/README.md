@@ -13,9 +13,10 @@
 
 ## LC3 Behavior
 The LC3 interacts with an instruction memory and a data memory
-- When an instruction is ready to be read, instrmem_rd is set to 1. The instruction memory return instruction at PC and indicates a successful fetch
-by setting complete_instr to 1
+- When an instruction is ready to be read, instrmem_rd is set to 1. The instruction memory returns the instruction at PC and indicates a successful fetch
+by setting complete_instr to 1.
 - The LC3 needs to interact with data memory during loads and stores. Data_rd is set to 1 to write Data_din to data memory at Data_addr. Data_rd is set to 0 to read Data_dout from data memory at Data_addr.
+  
 ### Startup Timing
 <img src="https://github.com/coolnikitav/projects/assets/30304422/d138cbc7-c94d-4a0e-99ba-a919e69115ca" alt="image" width="650"/>
 
