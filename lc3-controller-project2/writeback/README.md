@@ -4,7 +4,7 @@
 ## Design and Verification
 - Design: [writeback.sv](writeback.sv), [reg_file.v](reg_file.sv)
 - Testbench: [writeback_tb.sv](writeback_tb.sv)
-- Simulation output: [simulation-output.md](simulation_output.md)
+- Simulation output: [simulation_output.md](simulation_output.md)
 
 ## LC3 Writeback Behavior
 - Writes either aluout, pcout or memout based on W_Control value. This project only addresses aluout and pcout operations
