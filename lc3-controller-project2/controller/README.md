@@ -15,7 +15,7 @@ The br_taken is created for the control instructions using the logic br_taken = 
 ### Bypassing for stores
 To allow bypassing for SR and BaseR, the following mapping is used:
 - sr1 = IR[8:6] = BaseR (valid for STR only)
-- sr2 = IR[11:9] SR (valid for all stores)
+- sr2 = IR[11:9] = SR (valid for all stores)
 
 For reference, store instructions:
 
