@@ -17,7 +17,7 @@ To allow bypassing for SR and BaseR, the following mapping is used:
 - sr1 = IR[8:6] = BaseR (valid for STR only)
 - sr2 = IR[11:9] = SR (valid for all stores)
 
-For reference, store instructions:
+For reference, store instruction's structure:
 
 <img src="https://github.com/coolnikitav/projects/assets/30304422/89b6318d-6679-4358-abae-c81220fabf96" alt="image" width="500"/>
 
