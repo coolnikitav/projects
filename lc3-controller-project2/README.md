@@ -16,12 +16,12 @@ LC-3 is a computer architecture with the following characteristics:
 This LC3 Microcontroller consists of 6 modules: Fetch, Decode, Execute, Memaccess, Writeback, Controller. Modules were designed and verified individually. Then they were combined into a main LC3 module and it was verified that all stages of the pipeline worked cohesively. 
 
 Each of the folders has specifications, intended module behavior, schematics, design files, testbench files, and simulation outputs:
-- [LC3](%20%20%20%20%20%20LC3) - Combines the 6 modules into a full pipelined processor. **Examine this module first, then proceed to the rest.**
-- [Fetch](%20%20%20%20%20fetch)
-- [Decode](%20%20%20%20decode)
-- [Execute](%20%20%20execute)
-- [Memaccess](%20%20memaccess)
-- [Writeback](%20writeback)
+- [LC3](LC3) - Combines the 6 modules into a full pipelined processor. **Examine this module first, then proceed to the rest.**
+- [Fetch](fetch)
+- [Decode](decode)
+- [Execute](execute)
+- [Memaccess](memaccess)
+- [Writeback](writeback)
 - [Controller](controller)
   
 ## Skills
