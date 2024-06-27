@@ -4,7 +4,6 @@
 ## Design and Verification
 - Design: [decode.sv](decode.sv), [control_decode.sv](control_decode.sv)
 - Testbench: [decode_tb.sv](decode_tb.sv)
-- Reference model: [e_w_control_pkg.sv](e_w_control_pkg.sv)
 - Simulation output: [simulation-output.md](simulation-output.md)
 
 ## LC3 Decode Behavior
