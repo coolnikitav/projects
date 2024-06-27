@@ -4,7 +4,7 @@
 ## Design and Verification
 - Design: [fetch.sv](fetch.sv)
 - Testbench: [fetch_tb.sv](fetch_tb.sv)
-- Simulation output: [simulation-output.md](simulation-output.md)
+- Simulation output: [simulation_output.md](simulation_output.md)
 
 ## LC3 Fetch Behavior
 - On reset: pc = 3000, npc = 3001
