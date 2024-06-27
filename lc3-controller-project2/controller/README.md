@@ -4,8 +4,8 @@
 ## Design and Verification
 - Design: [controller.sv](controller.sv)
 - Testbench: [controller_tb.sv](controller_tb.sv)
-- Simulation output: [simulation-output.md](simulation-output.md)
-- Simulation waveform: [simulation-waveform.md](simulation-waveform.md)
+- Simulation output: [simulation_output.md](simulation-output.md)
+- Simulation waveform: [simulation_waveform.md](simulation-waveform.md)
 
 ## LC3 Controller Behavior
 - On reset all enables and bypass signals go to 0 but mem_state = 3
