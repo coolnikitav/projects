@@ -10,7 +10,7 @@
 - On reset all enables and bypass signals go to 0 but mem_state = 3
 
 ### br_taken
-The br_taken is created for the control instructions using th elogic br_taken = |(psr & NZP). NZP comes from the Execute block and psr comes from the Writeback block.
+The br_taken is created for the control instructions using the logic br_taken = |(psr & NZP). NZP comes from the Execute block and psr comes from the Writeback block.
 
 ### Bypassing for stores
 To allow bypassing for SR and BaseR, the following mapping is used:
