@@ -7,9 +7,9 @@
 - Simulation output: [simulation_output.md](simulation_output.md)
 
 ## LC3 Writeback Behavior
-- Writes either aluout, pcout or memout based on W_Control value. This project only addresses aluout and pcout operations
-- Synchronous writes to RF with dr: RegFile[dr] = DR_in
-- Asynchronous reads from RF usign sr1 & sr2
+- Writes either aluout, pcout or memout based on W_Control value.
+- Synchronous writes to RF with dr: RegFile[dr] = DR_in.
+- Asynchronous reads from RF usign sr1 & sr2.
 
 ## PSR
 The psr register is encoded based on the value being written to the register file and follows the encoding psr[2] = 1 for negative values, psr[1] = 1 for values equal to 0 and psr[0] = 1 for positive values. This value is used in br_taken calculation.
