@@ -4,7 +4,7 @@
 ## Design and Verification
 - Design: [decode.sv](decode.sv), [control_decode.sv](control_decode.sv)
 - Testbench: [decode_tb.sv](decode_tb.sv)
-- Simulation output: [simulation-output.md](simulation-output.md)
+- Simulation output: [simulation_output.md](simulation_output.md)
 
 ## LC3 Decode Behavior
 - On reset, all outputs go to logic 0
