@@ -31,7 +31,7 @@ Each of the folders has specifications, intended module behavior, schematics, de
   - Function coverage: transaction, sequence, sequencer, driver, monitor, scoreboard, agent, environment, test
   - Random stimulus
 - Understanding of a processor pipeline, control and data dependencies, bypassing, and uniprocessor architecture.
-- 
+  
 ## Challenges
 - Could not get a sequence library to work. Created a method to randomly execute sequences.
 - It was very difficult to get the correct timing for the enable signals because I used always blocks triggered on posedge clk. Learned that always blocks triggered on specific inputs activate a clock edge earlier, allowing to implement all enable signals according to specs.
