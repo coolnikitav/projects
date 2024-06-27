@@ -17,7 +17,7 @@ Example:
 - A: @PC = 16'h3005, Instruction = AND R5, R4, R3 (16'h5B03)
 - B: @PC = 16'h3006, Instruction = ADD R6, R5, #4 (16'h1D64)
 
-Instruction B is dependent on instruction A. A has not written to R5 when B needs it, thus the last ALU value needs to be bypassed in. In this example, bypass_alu_1 would go high.
+Instruction B is dependent on instruction A. A has not been written to R5 when B needs it, thus the last ALU value needs to be bypassed in. In this example, bypass_alu_1 would go high.
 
 If instruction A was a load, a memory value would need to be bypassed in by setting bypass_mem_1 or bypass_mem_2 to 1.
 
