@@ -1,6 +1,6 @@
 # Welcome to my projects!
 
-I am an electrical engineer, who is currently specializing in ASIC/FPGA and embedded software disciplines.
+I am an electrical engineer, who is currently specializing in SOC and ASIC disciplines.
 
 | Project | Link | Date
 | :---: | :---: | :---: |
